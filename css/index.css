@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -54,6 +57,25 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+.nav-container,
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+header {
+   width: 800px;
+   margin: 50px auto;
+}
+
+li a {
+    text-decoration: none;
+    padding: 0.938em;
+    margin: 15px;
+    color: #000;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,6 +91,10 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container img {
+    margin: 0 0 20px 0;
 }
 
 .top-content {
