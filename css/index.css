@@ -78,6 +78,10 @@ li a {
     color: #000;
 }
 
+.about h6 {
+    margin: 10px 0 10px 0;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -86,6 +90,17 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    margin: 20px 0;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 120px;
+    background: #fff;
+    font-size: 14px;
 }
 
 .container {
@@ -95,6 +110,16 @@ p {
 
 .container img {
     margin: 0 0 20px 0;
+}
+
+.abt-container,
+.abt-container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.abt-container3 {
+    margin-top: 40px;
 }
 
 .top-content {
@@ -111,7 +136,10 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.middle-content,
+.about,
+.abt-container,
+.abt-container2 {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
